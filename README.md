@@ -16,9 +16,13 @@ This tool helps users **track their dietary intake** and make informed food choi
 - **Deep Learning Model** (Trained on [Food-101 Dataset](https://www.kaggle.com/dansbecker/food-101))  
 - **Pre-trained Model:** Custom-trained CNN model  
 
-## Dataset  
-We used the **Food-101 dataset** from Kaggle, containing **101,000 images** of **101 food categories**.  
-📥 Download: [Food-101 Dataset](https://www.kaggle.com/dansbecker/food-101)  
+## Dataset
+The model is trained on the Food-101 dataset, which contains:
+101 food categories.
+101,000 images (1,000 images per category).
+The dataset is split into:
+Training set: 75,750 images.
+Test set: 25,250 images.
 
 ## Features  
  **Food Image Classification**: Identifies food items from images.  
